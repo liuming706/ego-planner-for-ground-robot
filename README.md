@@ -2,6 +2,12 @@
 
 # Environment Configuration
 
+## prebuild
+```bash
+sudo apt install ros-noetic-jsk-recognition-msgs
+sudo apt install libusb-dev
+```
+
 ## qpOASES
 
 We use qpOASES to solve MPC，and MPC is used for trajectory tracking
